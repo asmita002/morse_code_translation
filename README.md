@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Morse Code Translator
 
@@ -55,3 +56,6 @@ Sound Files: The audio files dot.ogg and dash.ogg are used to represent the Mors
 
 Morse Code Mapping: The file morse.json in the resources directory contains the mapping between characters and their Morse code representations.
 
+=======
+# morse_code_translator_with_audio
+>>>>>>> f886c8fe8f27a682bfa8ffcfa3cdd4739ad51646

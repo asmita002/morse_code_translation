@@ -117,4 +117,8 @@ class Morse:
     def audio_print(sound_file, output_buffer):
         print(output_buffer, end='\r')
         pygame.mixer.music.load(sound_file)
+<<<<<<< HEAD
         pygame.mixer.music.play()
+=======
+        pygame.mixer.music.play()
+>>>>>>> f886c8fe8f27a682bfa8ffcfa3cdd4739ad51646
