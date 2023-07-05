@@ -28,7 +28,7 @@ print("Decoded Text:", decoded_text)
 
 The encode method takes plain text as input and returns the corresponding Morse code. The decode method does the reverse by taking Morse code as input and returning the decoded plain text.
 
-Audio Playback
+## Audio Playback
 The Morse class also provides a print_and_play method that converts Morse code into audio representation. It utilizes threading and sound files to create the audio playback. Here's an example of how to use it:
 
 ```
@@ -37,7 +37,7 @@ Morse.print_and_play(morse_code)
 ```
 The print_and_play method plays the Morse code audio and simultaneously prints the corresponding characters on the console.
 
-Instructions on usage
+## Instructions on usage
 To use this program, follow these steps:
 
 Install the required dependencies, such as pygame, by running pip install pygame in your Python environment.
@@ -48,7 +48,7 @@ Utilize the encode and decode methods to convert between plain text and Morse co
 
 Use the print_and_play method to play Morse code audio and visualize the characters.
 
-Resources
+## Resources
 The program uses the following resources:
 
 Sound Files: The audio files dot.ogg and dash.ogg are used to represent the Morse code symbols '.' and '-' respectively. These files are located in the resources directory.
